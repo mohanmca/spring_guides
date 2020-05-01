@@ -1,4 +1,4 @@
-package com.example.consumingrest;
+package com.example.relational;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.consumingrest;
+package com.example.relational;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
