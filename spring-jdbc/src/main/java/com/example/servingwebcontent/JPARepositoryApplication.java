@@ -1,4 +1,4 @@
-package com.example.accessingdatajpa;
+package com.example.servingwebcontent;
 
 
 import org.slf4j.Logger;
