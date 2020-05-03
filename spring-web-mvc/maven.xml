@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>rest-service</artifactId>
+    <artifactId>spring-web-mvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rest-service</name>
+    <name>spring-web-mvc</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,7 +23,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -45,5 +54,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

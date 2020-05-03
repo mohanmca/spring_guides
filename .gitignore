@@ -1,2 +1,6 @@
 **/.idea/
 **/target/
+**/*.iml
+**/logs/
+**/spring.log
+**/*.gz
