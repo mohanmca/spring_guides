@@ -1,4 +1,4 @@
-package com.example.relational;
+package com.example.core;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

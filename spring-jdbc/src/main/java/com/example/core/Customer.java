@@ -1,4 +1,4 @@
-package com.example.relational;
+package com.example.core;
 
 public class Customer {
     private long id;
