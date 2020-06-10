@@ -1,0 +1,15 @@
+debug: true
+management:
+  metrics:
+    enable:
+      all: true
+  server:
+    port: 8090
+  endpoints:
+    health:
+      enabled: true
+      show-details: always
+    web:
+      base-path: "/system"
+      exposure:
+        include: "*"
